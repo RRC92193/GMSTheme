@@ -1,0 +1,359 @@
+
+
+    #masthead.site-header {
+        margin-bottom: 0px;
+    }
+    .top-image {
+        
+        width: 100vw;
+        left: calc(-50vw + 50%);
+        position: relative;
+        height: 60vw;
+        background: url('<?php echo $top_image['url']; ?> ') no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    .main-cards {
+        
+        width: 100vw;
+        left: calc(-50.3vw + 50%);
+        position: relative;
+        height: 35vw;
+        text-align: center;
+    }
+    
+    .main-card-left {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background: url('<?php echo $leftcard_image['url']; ?> ');
+        background-size: cover;
+        border: 5px solid white;
+        transition: .5s ease-in-out;
+        
+    }
+    .main-card-left:hover {
+        opacity: 0.9;
+        transition: .5s ease-in-out;
+        overflow: hidden;
+        border: 2px solid white;
+        
+    }
+    
+    
+    .main-card-right {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background: url('<?php echo $rightcard_image['url']; ?> ');
+        background-size: cover;
+        border: 5px solid white;
+        transition: .5s ease-in-out;
+    }
+    .main-card-right:hover {
+        opacity: 0.9;
+        transition: .5s ease-in-out;
+        overflow: hidden;
+        z-index: 100;
+        border: 2px solid white;
+    }
+    
+    .top-text {
+        position: relative;
+        background: center;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s ease-in-out;
+    }
+    .top-text h3 {
+        color: white;
+        margin: 5px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 35px;
+    }
+    .top-text:hover {
+        color: white;
+        transition: .5s ease-in-out;
+        background: transparent;
+    }
+    .about-gms {
+        color: white;
+        width: 100vw;
+        left: calc(-50vw + 50%);
+        position: relative;
+        background: #4b8a66;
+        text-align: center;
+        padding: 20px;
+        transition: .7s ease-in-out;
+        -moz-transition: .7s ease-in-out;
+        -webkit-transition: .7s ease-in-out;
+        }
+    .newsletter {
+        color: white;
+        width: 100vw;
+        left: calc(-50vw + 50%);
+        position: relative;
+        background: #4b8a66;
+        text-align: center;
+        padding: 20px;
+
+        }
+    .our-story {
+        background: url('<?php echo $full_width_image_3['url']; ?> ') no-repeat;
+        background-size: cover;
+        color: white;
+        border: 2.5px solid white;
+        width: 100vw;
+        height: 30vw;
+        left: calc(-50vw + 50%);
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        transition: .7s ease-in-out;
+    }
+    .our-story-text {
+        position: relative;
+        background: #4b8a66;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s ease-in-out;
+    }
+    .our-story-text h3 {
+        color: white;
+        margin: 2.5px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 30px;
+    }
+    .our-story-text:hover {
+        background: #1c60cc;
+        transition: .5s ease-in-out;
+    }
+    .our-story:hover {
+        opacity: 0.9;
+        transition: .5s ease-in-out;
+        overflow: hidden;
+        z-index: 100;
+        border: 3px solid white;
+    }
+    .blog {
+        background: url('<?php echo $full_width_image_1['url']; ?> ') no-repeat;
+        background-size: cover;
+        color: white;
+        border: 2.5px solid white;
+        width: 100vw;
+        height: 30vw;
+        left: calc(-50vw + 50%);
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        transition: .5s ease-in-out;
+        
+    }
+    .blog:hover {
+            opacity: 0.9;
+            transition: .5s ease-in-out;
+            overflow: hidden;
+            z-index: 100;
+            border: 3px solid white;
+    }
+    .blog-text {
+        position: relative;
+        background: #4b8a66;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s ease-in-out;
+    }
+    .blog-text h3 {
+        color: white;
+        margin: 2.5px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 30px;
+        
+    }
+    .blog-text:hover {
+        background: #1c60cc;
+        transition: .5s ease-in-out;
+    }
+    .shop-all {
+        background: url('<?php echo $full_width_image_2['url']; ?> ') no-repeat;
+        background-size: cover;
+        color: white;
+        border: 2.5px solid white;
+        width: 100vw;
+        height: 30vw;
+        left: calc(-50vw + 50%);
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        transition: .5s ease-in-out;
+    }
+    .shop-all:hover {
+        opacity: 0.9;
+        transition: .5s ease-in-out;
+        overflow: hidden;
+        z-index: 100;
+        border: 3px solid white;
+        transition: .5s ease-in-out;
+    }
+    .shop-all-text {
+        position: relative;
+        background: #4b8a66;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s ease-in-out;
+    }
+    .shop-all-text h3 {
+        color: white;
+        margin: 5px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 30px;
+    }
+    .shop-all-text:hover {
+        background: #1c60cc;
+        transition: .5s ease-in-out;
+    }
+    
+    .a-text h4, p{
+        color: white;
+        
+    }
+    .col-full {
+        max-width: 100vw;
+        padding: 0px;
+        margin:0px;
+    }
+        
+    .storefront-breadcrumb {
+        display: none;
+    }
+    .header-widget-region {
+        display: none;
+    }
+    .product_search {
+        width: 100%;
+    }
+    
+    .main-card-text-left {
+        position: relative;
+        background: #4b8a66;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s ease-in-out;
+    }
+    .main-card-text-left h3 {
+        color: white;
+        margin: 5px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .main-card-text-left:hover {
+        background: #1c60cc;
+        transition: .5s ease-in-out;
+    }
+    
+    .main-card-text-right {
+        position: relative;
+        background: #4b8a66;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s ease-in-out;
+    }
+    .main-card-text-right h3 {
+        color: white;
+        margin: 5px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .main-card-text-right:hover {
+        background: #1c60cc;
+        transition: .5s ease-in-out;
+    }
+    
+    
+    
+    
+    @media (max-width: 1200px) {
+        .top-image {
+            height: 100vw !important;
+          background: url('<?php echo $top_image_tablet['url']; ?> ') no-repeat center; 
+          background-size: cover;
+        }
+        .top-text h3 {
+            font-size: 25px;
+        }
+        .main-cards {
+            height:100vw !important;
+            overflow: hidden !important;
+        }
+        .main-card-left {
+        display: inline-block;
+        width: 100%;
+        height: 50%;
+        
+        
+
+        }
+        .main-card-right {
+        display: inline-block;
+        
+        width: 100% !important;
+        height: 50%;
+        }
+
+    }
+
+    
+    
+    
+    @media (max-width: 990px) {
+        .top-text{
+            padding: 10px;
+            font-size: 35px;
+        }
+        
+    }
+    
+    @media (max-width: 765px) {
+        .top-text{
+            display: ;
+            font-size: 35px;
+            padding: 10px;
+        }
+      
+    }
+    @media (max-width: 400px) {
+        .shop-all-text h3 {
+            font-size: 20px;
+        }
+        .blog-text h3 {
+            font-size: 20px;
+        }
+        .our-story-text h3 {
+            font-size: 20px;
+        }
+        .top-image {
+            background: url('<?php echo $top_image_phone['url']; ?> ') no-repeat center;
+            background-size: cover;
+        }
+        .top-text {
+            display: ;
+            padding: 10px;
+        }
+    }
+    

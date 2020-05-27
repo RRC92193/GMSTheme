@@ -1,0 +1,1 @@
+<?php/** * * * Template Name: CustomPage * */get_header(); ?><?php    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;   $args = array(       'posts_per_page' => 18,         'paged' => $paged   );   ?>   $wp_query = new WP_Query($args);   <?php echo '<pre>'; print_r($wp_query); echo '</pre>'; ?>get_footer();
